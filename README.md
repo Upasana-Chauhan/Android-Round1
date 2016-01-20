@@ -23,11 +23,13 @@ Please write clean & maintainable code to implement the relevant functionality. 
 * Support API 8 (optional)
 
 ### Bonus questions
-* If URL of webview changes, will application load content from new URL?
-* We would like to have a link in webview, that will open some native screen in application. Is it possible? How would you do it?
+* If URL of webview changes, will application load content from new URL? - Yes
+* We would like to have a link in webview, that will open some native screen in application. Is it possible? How would you do it? - This can be done with the help of deep linking concept in Android. Few parameters are added in Web page and correspondingly they are recieved at application level. On the basis of these request the pages are opened in application with intent.
 
 ### Todo
 * In GitHub, fork this repository to you own account
 * The solution, after finished, should be send as pull request to original HQ repository.
 * Log your manhour and provide that infomation back in the pull request detail.
 * Attach final APK in this repository
+
+Effort time - 10 hours
